@@ -63,8 +63,7 @@ function App() {
             <td>{product.name}</td>
             <td>{product.description}</td>
             {product.images.map((image) => (
-              // console.log(image);
-              <img src="{image}" width="50" />
+              <img src={image} width="50" />
             ))}
           </tr>
         ))}
